@@ -1,86 +1,291 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  @font-face {
-    font-family: "Alegreya-Medium";
-    src: url(../fonts/Alegreya-VariableFont_wght.ttf);
-  }
-  header {
-    background-color: #b3daff;
-    padding: 2vh;
-  }
-  
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Alegreya-Medium";
+  src: url(../fonts/Alegreya-VariableFont_wght.ttf);
+}
+header {
+  background-color: #b3daff;
+  padding: 2vh;
+}
+
+img {
+  position: absolute;
+  width: auto;
+  height: auto;
+  margin-left: 3%;
+  margin-top: 1%;
+}
+nav {
+  margin-top: 8%;
+  margin-left: 50%;
+}
+ul {
+  list-style-type: none;
+  font-size: larger;
+}
+
+li {
+  display: inline;
+  padding: 5%;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.photoPerfil {
+  width: 33%;
+  height: auto;
+  margin-left: 7%;
+  margin-top: -2%;
+}
+section {
+  width: 50%;
+  margin-left: 50%;
+  padding: 3%;
+}
+h1 {
+  font-family: "Alegreya-Medium";
+  margin-top: -1%;
+  font-size: 3em;
+  color: tomato;
+  columns: 2;
+}
+h2 {
+  font-family: "Alegreya-Medium";
+  font-size: 2.5em;
+  text-align: center;
+  padding: 1%;
+  margin-left: 17%;
+}
+h3 {
+  font-family: "Alegreya-Medium";
+  font-size: 2.5em;
+  text-align: center;
+  padding: 1%;
+  margin-left: 17%;
+}
+
+h4 {
+  font-family: "Alegreya-Medium";
+  font-size: 1.7em;
+  text-align: left;
+  margin-left: 54%;
+}
+p {
+  color: saddlebrown;
+  margin-top: 3%;
+  font-size: 2vh;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+article {
+  display: flexbox;
+  position: relative;
+  width: 100%;
+  background-color: #fcee21;
+}
+.tentantes {
+  position: relative;
+  width: 30%;
+  margin-left: 10%;
+  outline-style: auto;
+}
+#chance {
+  position: relative;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 2vh;
+  background-color: #ff97b9;
+  padding: 2vh;
+  width: 10%;
+  margin-left: 20%;
+  margin-top: 1dvh;
+  outline-style: double;
+  text-align: center;
+}
+.gravida {
+  position: relative;
+  width: 35%;
+  margin-left: 50%;
+  margin-top: -30%;
+  outline-style: auto;
+}
+#mulheres {
+  position: relative;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 2vh;
+  background-color: #ff97b9;
+  padding: 2vh;
+  width: 10%;
+  margin-left: 86%;
+  margin-top: -30dvh;
+  outline-style: double;
+  text-align: center;
+}
+.tea {
+  position: relative;
+  width: 30%;
+  margin-left: 20%;
+  outline-style: auto;
+  margin-top: 12%;
+}
+
+#down {
+  position: absolute;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 2vh;
+  text-align: center;
+  background-color: #ff97b9;
+  padding: 2vh;
+  width: 15%;
+  margin-left: 51%;
+  margin-top: -15%;
+  outline-style: double;
+}
+
+#depoimento {
+  display: flexbox;
+  position: relative;
+  background-color: #ff97b9;
+  width: 100%;
+  margin-left: 0%;
+  padding: 0%;
+}
+
+.celular {
+  position: relative;
+  width: 40%;
+  margin-left: -5%;
+}
+
+.ipad {
+  position: relative;
+  width: 40%;
+  margin-left: -10%;
+}
+
+.notebook {
+  display: flexbox;
+  position: relative;
+  width: 40%;
+  margin-top: -40%;
+  margin-left: 60%;
+}
+
+footer {
+  display: flexbox;
+  position: relative;
+  padding: 1%;
+  width: 100%;
+  background-color: #66ebff;
+}
+
+div {
+  display: flexbox;
+  position: relative;
+}
+#instagram {
+  position: absolute;
+  margin-top: -18%;
+}
+
+#zap {
+  position: absolute;
+  margin-top: -20%;
+  margin-left: 77%;
+}
+#rodape {
+  display: flexbox;
+  position: relative;
+}
+.marcacao {
+  margin-left: 30%;
+  text-align: center;
+}
+.conecte {
+  margin-top: 10%;
+  font-size: 3vh;
+  margin-left: 5%;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.agende {
+  display: flexbox;
+  position: relative;
+  text-align: center;
+  margin-left: 70%;
+  margin-top: -2%;
+  font-size: 3vh;
+}
+.direitos {
+  display: flexbox;
+  position: relative;
+  text-align: center;
+  margin-top: 15%;
+}
+.direitos1 {
+  display: flexbox;
+  position: relative;
+  text-align: center;
+  margin-top: 0%;
+}
+
+#details {
+  display: flexbox;
+  position: relative;
+  margin-top: -5%;
+  margin-left: 87%;
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
   img {
-    position: absolute;
-    width: auto;
-    height: auto;
-    margin-left: 3%;
-    margin-top: 1%;
+    margin-left: 1%;
+    width: 45%;
   }
   nav {
-    margin-top: 8%;
-    margin-left: 50%;
+    display: flexbox;
+    position: relative;
+    text-align: center;
+    margin-top: 0%;
   }
-  ul {
-    list-style-type: none;
-    font-size: larger;
-  }
-  
-  li {
-    display: inline;
-    padding: 5%;
-    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  }
-  
+
   .photoPerfil {
-    width: 33%;
-    height: auto;
-    margin-left: 7%;
-    margin-top: -2%;
+    position: relative;
+    display: flexbox;
+    width: 120%;
+    margin-left: -15%;
+    margin-top: -15%;
   }
   section {
-    width: 50%;
-    margin-left: 50%;
-    padding: 3%;
+    position: relative;
+    display: flexbox;
+    width: 100%;
+    margin-left: 0%;
+    margin-top: 0%;
+    padding: 0%;
   }
   h1 {
-    font-family: "Alegreya-Medium";
-    margin-top: -1%;
-    font-size: 3em;
-    color: tomato;
-    columns: 2;
-  }
-  h2 {
-    font-family: "Alegreya-Medium";
+    margin-top: 0%;
     font-size: 2.5em;
+    columns: 1;
     text-align: center;
-    padding: 1%;
-    margin-left: 17%;
   }
-  h3 {
-    font-family: "Alegreya-Medium";
-    font-size: 2.5em;
-    text-align: center;
-    padding: 1%;
-    margin-left: 17%;
-  }
-  
-  h4 {
-    font-family: "Alegreya-Medium";
-    font-size: 1.7em;
-    text-align: left;
-    margin-left: 54%;
-  }
+
   p {
-    color: saddlebrown;
-    margin-top: 3%;
-    font-size: 2vh;
-    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    font-size: 1.5em;
+    padding: 1%;
+    text-align: center;
   }
-  
+
+  h2 {
+    font-size: 2.5em;
+    text-align: center;
+    padding: 0%;
+    margin-left: 0%;
+  }
+
   article {
     display: flexbox;
     position: relative;
@@ -89,108 +294,483 @@
   }
   .tentantes {
     position: relative;
-    width: 30%;
-    margin-left: 10%;
-    outline-style: auto;
+    width: 90%;
+    margin-left: 5%;
   }
   #chance {
     position: relative;
-    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-    font-size: 2vh;
-    background-color: #ff97b9;
-    padding: 2vh;
-    width: 10%;
-    margin-left: 20%;
-    margin-top: 1dvh;
-    outline-style: double;
-    text-align: center;
+    font-size: 3.5vh;
+    padding: 1vh;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 2%;
   }
   .gravida {
     position: relative;
-    width: 35%;
-    margin-left: 50%;
-    margin-top: -30%;
-    outline-style: auto;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 3%;
   }
   #mulheres {
     position: relative;
-    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-    font-size: 2vh;
-    background-color: #ff97b9;
-    padding: 2vh;
-    width: 10%;
-    margin-left: 86%;
-    margin-top: -30dvh;
-    outline-style: double;
-    text-align: center;
+    font-size: 3.5vh;
+    padding: 1vh;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 2%;
   }
   .tea {
     position: relative;
-    width: 30%;
-    margin-left: 20%;
-    outline-style: auto;
-    margin-top: 12%;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 3%;
   }
-  
+
   #down {
-    position: absolute;
-    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-    font-size: 2vh;
+    position: relative;
+    font-size: 3.5vh;
+    padding: 0.2vh;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 2%;
+    margin-bottom: 0.3%;
+  }
+
+  h3 {
+    position: relative;
+    font-size: 2.5em;
     text-align: center;
-    background-color: #ff97b9;
-    padding: 2vh;
-    width: 15%;
-    margin-left: 51%;
-    margin-top: -15%;
-    outline-style: double;
-  }
-  
-  #depoimento {
-    display: flexbox;
-    position: relative;
-    background-color: #ff97b9;
-    width: 100%;
+    padding: 2%;
     margin-left: 0%;
-    padding: 0%;
+    margin-top: 0.2%;
   }
-  
+
   .celular {
-    position: relative;
-    width: 40%;
+    width: 110%;
     margin-left: -5%;
   }
-  
+
   .ipad {
-    position: relative;
-    width: 40%;
-    margin-left: -10%;
+    width: 110%;
+    margin-left: -5%;
   }
-  
+
   .notebook {
-    display: flexbox;
-    position: relative;
-    width: 40%;
-    margin-top: -40%;
-    margin-left: 60%;
+    width: 110%;
+    margin-top: -20%;
+    margin-left: -5%;
   }
-  
   footer {
     display: flexbox;
     position: relative;
-    padding: 1%;
+    padding: 2%;
     width: 100%;
     background-color: #66ebff;
   }
-  
-  div {
+  .logoFooter {
+    position: relative;
+    width: 0%;
+    margin-left: 28%;
+  }
+  h4 {
     display: flexbox;
     position: relative;
+    margin: 0;
+    font-size: 1.5em;
+    text-align: center;
   }
+
+  .conecte {
+    font-size: 1.8em;
+    text-align: center;
+    margin-top: 8%;
+    margin-bottom: 40%;
+  }
+  #instagram {
+    display: flexbox;
+    position: absolute;
+    width: 60%;
+    margin-left: 20%;
+    margin-top: -50%;
+    padding: 0%;
+  }
+
+  .marcacao {
+    display: flexbox;
+    position: absolute;
+    padding: 0%;
+    width: 140%;
+    margin-top: 70%;
+    margin-left: -47%;
+  }
+
+  .direitos {
+    display: flexbox;
+    position: absolute;
+    font-size: 1.5em;
+    margin-left: 10%;
+    margin-top: 140%;
+  }
+  .direitos1 {
+    display: flexbox;
+    position: absolute;
+    font-size: 1.3em;
+    margin-left: 25%;
+    margin-top: 160%;
+  }
+  .agende {
+    display: flexbox;
+    position: absolute;
+    font-size: 1.8em;
+    margin-left: 33%;
+    margin-top: 82%;
+  }
+  #zap {
+    display: flexbox;
+    position: relative;
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 83%;
+  }
+  #details {
+    display: flexbox;
+    position: relative;
+    margin-left: 60%;
+    margin-bottom: 0;
+    padding: 1%;
+  }
+}
+@media screen and (min-width: 375px) and (max-width: 767px) {
+  img {
+    position: absolute;
+    width: 43%;
+    margin-left: 1%;
+  }
+  nav {
+    padding: 2%;
+    margin-top: 1%;
+    text-align: left;
+  }
+  .photoPerfil {
+    position: relative;
+    display: flexbox;
+    width: 100%;
+    margin-left: -5%;
+    margin-top: -15%;
+  }
+  section {
+    position: relative;
+    display: flexbox;
+    width: 100%;
+    margin-left: 0%;
+    margin-top: 0%;
+    padding: 0%;
+  }
+  h1 {
+    margin-top: 0%;
+    font-size: 2.5em;
+    columns: 1;
+    text-align: center;
+  }
+
+  p {
+    font-size: 1.5em;
+    padding: 1%;
+  }
+
+  h2 {
+    font-size: 2.5em;
+    text-align: center;
+    padding: 0%;
+    margin-left: 0%;
+  }
+
+  article {
+    display: flexbox;
+    position: relative;
+    width: 100%;
+    background-color: #fcee21;
+  }
+  .tentantes {
+    position: relative;
+    width: 90%;
+    margin-left: 5%;
+  }
+  #chance {
+    position: relative;
+    font-size: 2.5vh;
+    padding: 1vh;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 2%;
+  }
+  .gravida {
+    position: relative;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 3%;
+  }
+  #mulheres {
+    position: relative;
+    font-size: 2.5vh;
+    padding: 1vh;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 2%;
+  }
+  .tea {
+    position: relative;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 3%;
+  }
+
+  #down {
+    position: relative;
+    font-size: 2.5vh;
+    padding: 0.5vh;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 1%;
+  }
+  h3 {
+    position: relative;
+    font-size: 2.5em;
+    text-align: center;
+    padding: 2%;
+    margin-left: 0%;
+    margin-top: 0.2%;
+  }
+
+  .celular {
+    width: 100%;
+    margin-left: 2%;
+  }
+
+  .ipad {
+    width: 100%;
+    margin-left: 2%;
+  }
+
+  .notebook {
+    width: 100%;
+    margin-top: -20%;
+    margin-left: 2%;
+  }
+  footer {
+    display: flexbox;
+    position: relative;
+    padding: 2%;
+    width: 100%;
+    background-color: #66ebff;
+  }
+  .logoFooter {
+    position: relative;
+    width: 50%;
+    margin-left: 28%;
+  }
+  h4 {
+    display: flexbox;
+    position: relative;
+    margin: 0;
+    font-size: 1.5em;
+    text-align: center;
+  }
+
+  .conecte {
+    font-size: 1.8em;
+    text-align: center;
+    margin-top: 8%;
+    margin-bottom: 40%;
+  }
+  #instagram {
+    display: flexbox;
+    position: absolute;
+    width: 60%;
+    margin-left: 20%;
+    margin-top: -50%;
+    padding: 0%;
+  }
+
+  .marcacao {
+    display: flexbox;
+    position: absolute;
+    padding: 0%;
+    width: 140%;
+    margin-top: 80%;
+    margin-left: -95%;
+  }
+
+  .direitos {
+    display: flexbox;
+    position: absolute;
+    font-size: 1.5em;
+    margin-left: 10%;
+    margin-top: 140%;
+  }
+  .direitos1 {
+    display: flexbox;
+    position: absolute;
+    font-size: 1.3em;
+    margin-left: 25%;
+    margin-top: 150%;
+  }
+  .agende {
+    display: flexbox;
+    position: absolute;
+    font-size: 1.8em;
+    margin-left: 33%;
+    margin-top: 82%;
+  }
+  #zap {
+    display: flexbox;
+    position: relative;
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 83%;
+  }
+  #details {
+    display: flexbox;
+    position: relative;
+    margin-left: 60%;
+    margin-bottom: 0;
+    padding: 1%;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  header {
+    padding: 4vh;
+  }
+
+  img {
+    width: 30%;
+    margin-left: 0%;
+    margin-top: -3%;
+  }
+  nav {
+    margin-top: 7%;
+    margin-left: 38%;
+  }
+
+  li {
+    padding: 1%;
+  }
+  .photoPerfil {
+    width: 50%;
+    margin-left: 0%;
+    margin-top: 5%;
+  }
+  h1 {
+    columns: 1;
+  }
+  h2 {
+    margin-left: 31%;
+  }
+  .tentantes {
+    width: 45%;
+    margin-left: 2%;
+    margin-top: 2%;
+  }
+  #chance {
+    padding: 2vh;
+    width: 30%;
+    margin-left: 10%;
+    margin-top: 0.5%;
+  }
+  .gravida {
+    width: 45%;
+    margin-left: 54%;
+  }
+  #mulheres {
+    font-size: 2vh;
+    width: 20%;
+    margin-left: 70%;
+    margin-top: 1%;
+  }
+  .tea {
+    width: 50%;
+    margin-left: 10%;
+    margin-top: -5%;
+  }
+
+  #down {
+    width: 30%;
+    margin-left: 62%;
+    margin-top: -15%;
+  }
+
+  h3 {
+    margin-left: 33%;
+  }
+
+  .logoFooter {
+    display: flexbox;
+    position: relative;
+    margin: 0;
+  }
+  #instagram {
+    display: flexbox;
+    position: absolute;
+    margin-top: 30%;
+  }
+
+  #zap {
+    display: flexbox;
+    position: absolute;
+    margin-top: 30%;
+    margin-left: 74%;
+  }
+  .marcacao {
+    margin-left: -26%;
+    width: 100%;
+  }
+  .conecte {
+    display: flexbox;
+    position: absolute;
+    margin-top: 30%;
+    font-size: 2.7vh;
+    margin-left: 1%;
+  }
+  .agende {
+    display: flexbox;
+    position: absolute;
+    margin-left: 80%;
+    margin-top: 30%;
+    font-size: 2.7vh;
+  }
+  .direitos {
+    display: flexbox;
+    position: absolute;
+    margin-left: 35%;
+    margin-top: 80%;
+  }
+  .direitos1 {
+    display: flexbox;
+    position: absolute;
+    margin-left: 40%;
+    margin-top: 85%;
+  }
+  h4 {
+    display: flexbox;
+    text-align: right;
+    margin-top: -12%;
+    padding: 0;
+    font-size: 1.5em;
+  }
+  #details {
+    display: flexbox;
+    position: relative;
+    margin-top: 70%;
+    margin-left: 80%;
+    width: 20%;
+  }
+}
+@media screen and (min-width: 1024px) and (max-width: 800px) {
   #instagram {
     position: absolute;
     margin-top: -18%;
   }
-  
+
   #zap {
     position: absolute;
     margin-top: -20%;
@@ -201,16 +781,19 @@
     position: relative;
   }
   .marcacao {
-    margin-left: 30%;
+    display: flexbox;
+    position: relative;
+    margin-left: -300%;
     text-align: center;
   }
   .conecte {
     margin-top: 10%;
     font-size: 3vh;
     margin-left: 5%;
-    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
   }
-  
+
   .agende {
     display: flexbox;
     position: relative;
@@ -231,647 +814,121 @@
     text-align: center;
     margin-top: 0%;
   }
-  
+
   #details {
     display: flexbox;
     position: relative;
+    margin-top: 40%;
+    margin-left: 0%;
+  }
+}
+@media screen and (min-width: 950px) and (max-width: 1280px) {
+  img {
+    width: 20%;
+    margin-top: -1%;
+  }
+  li {
+    padding: 4%;
+  }
+  .photoPerfil {
+    width: 40%;
+    margin-left: 0%;
     margin-top: -5%;
-    margin-left: 87%;
   }
-  
-  @media screen and (min-width: 320px) and (max-width: 480px) {
-    img {
-      margin-left: 1%;
-      width: 45%;
-    }
-    nav {
-      display: flexbox;
-      position: relative;
-      text-align: center;
-      margin-top: 0%;
-    }
-  
-    .photoPerfil {
-      position: relative;
-      display: flexbox;
-      width: 120%;
-      margin-left: -15%;
-      margin-top: -15%;
-    }
-    section {
-      position: relative;
-      display: flexbox;
-      width: 100%;
-      margin-left: 0%;
-      margin-top: 0%;
-      padding: 0%;
-    }
-    h1 {
-      margin-top: 0%;
-      font-size: 2.5em;
-      columns: 1;
-      text-align: center;
-    }
-  
-    p {
-      font-size: 1.5em;
-      padding: 1%;
-      text-align: center;
-    }
-  
-    h2 {
-      font-size: 2.5em;
-      text-align: center;
-      padding: 0%;
-      margin-left: 0%;
-    }
-  
-    article {
-      display: flexbox;
-      position: relative;
-      width: 100%;
-      background-color: #fcee21;
-    }
-    .tentantes {
-      position: relative;
-      width: 90%;
-      margin-left: 5%;
-    }
-    #chance {
-      position: relative;
-      font-size: 3.5vh;
-      padding: 1vh;
-      width: 50%;
-      margin-left: 25%;
-      margin-top: 2%;
-    }
-    .gravida {
-      position: relative;
-      width: 90%;
-      margin-left: 5%;
-      margin-top: 3%;
-    }
-    #mulheres {
-      position: relative;
-      font-size: 3.5vh;
-      padding: 1vh;
-      width: 50%;
-      margin-left: 25%;
-      margin-top: 2%;
-    }
-    .tea {
-      position: relative;
-      width: 90%;
-      margin-left: 5%;
-      margin-top: 3%;
-    }
-  
-    #down {
-      position: relative;
-      font-size: 3.5vh;
-      padding: 0.2vh;
-      width: 50%;
-      margin-left: 25%;
-      margin-top: 2%;
-      margin-bottom: 0.3%;
-    }
-  
-    h3 {
-      position: relative;
-      font-size: 2.5em;
-      text-align: center;
-      padding: 2%;
-      margin-left: 0%;
-      margin-top: 0.2%;
-    }
-  
-    .celular {
-      width: 110%;
-      margin-left: -5%;
-    }
-  
-    .ipad {
-      width: 110%;
-      margin-left: -5%;
-    }
-  
-    .notebook {
-      width: 110%;
-      margin-top: -20%;
-      margin-left: -5%;
-    }
-    footer {
-      display: flexbox;
-      position: relative;
-      padding: 2%;
-      width: 100%;
-      background-color: #66ebff;
-    }
-    .logoFooter {
-      position: relative;
-      width: 0%;
-      margin-left: 28%;
-    }
-    h4 {
-      display: flexbox;
-      position: relative;
-      margin: 0;
-      font-size: 1.5em;
-      text-align: center;
-    }
-  
-    .conecte {
-      font-size: 1.8em;
-      text-align: center;
-      margin-top: 8%;
-      margin-bottom: 40%;
-    }
-    #instagram {
-      display: flexbox;
-      position: absolute;
-      width: 60%;
-      margin-left: 20%;
-      margin-top: -50%;
-      padding: 0%;
-    }
-  
-    .marcacao {
-      display: flexbox;
-      position: absolute;
-      padding: 0%;
-      width: 140%;
-      margin-top: 70%;
-      margin-left: -47%;
-    }
-  
-    .direitos {
-      display: flexbox;
-      position: absolute;
-      font-size: 1.5em;
-      margin-left: 10%;
-      margin-top: 140%;
-    }
-    .direitos1 {
-      display: flexbox;
-      position: absolute;
-      font-size: 1.3em;
-      margin-left: 25%;
-      margin-top: 160%;
-    }
-    .agende {
-      display: flexbox;
-      position: absolute;
-      font-size: 1.8em;
-      margin-left: 33%;
-      margin-top: 82%;
-    }
-    #zap {
-      display: flexbox;
-      position: relative;
-      width: 70%;
-      margin-left: 15%;
-      margin-top: 83%;
-    }
-    #details {
-      display: flexbox;
-      position: relative;
-      margin-left: 60%;
-      margin-bottom: 0;
-      padding: 1%;
-    }
+  h2 {
+    margin-left: 22%;
   }
-  @media screen and (min-width: 375px) and (max-width: 767px) {
-    img {
-      position: absolute;
-      width: 43%;
-      margin-left: 1%;
-    }
-    nav {
-      padding: 2%;
-      margin-top: 1%;
-      text-align: left;
-    }
-    .photoPerfil {
-      position: relative;
-      display: flexbox;
-      width: 100%;
-      margin-left: -5%;
-      margin-top: -15%;
-    }
-    section {
-      position: relative;
-      display: flexbox;
-      width: 100%;
-      margin-left: 0%;
-      margin-top: 0%;
-      padding: 0%;
-    }
-    h1 {
-      margin-top: 0%;
-      font-size: 2.5em;
-      columns: 1;
-      text-align: center;
-    }
-  
-    p {
-      font-size: 1.5em;
-      padding: 1%;
-    }
-  
-    h2 {
-      font-size: 2.5em;
-      text-align: center;
-      padding: 0%;
-      margin-left: 0%;
-    }
-  
-    article {
-      display: flexbox;
-      position: relative;
-      width: 100%;
-      background-color: #fcee21;
-    }
-    .tentantes {
-      position: relative;
-      width: 90%;
-      margin-left: 5%;
-    }
-    #chance {
-      position: relative;
-      font-size: 2.5vh;
-      padding: 1vh;
-      width: 50%;
-      margin-left: 25%;
-      margin-top: 2%;
-    }
-    .gravida {
-      position: relative;
-      width: 90%;
-      margin-left: 5%;
-      margin-top: 3%;
-    }
-    #mulheres {
-      position: relative;
-      font-size: 2.5vh;
-      padding: 1vh;
-      width: 50%;
-      margin-left: 25%;
-      margin-top: 2%;
-    }
-    .tea {
-      position: relative;
-      width: 90%;
-      margin-left: 5%;
-      margin-top: 3%;
-    }
-  
-    #down {
-      position: relative;
-      font-size: 2.5vh;
-      padding: 0.5vh;
-      width: 50%;
-      margin-left: 25%;
-      margin-top: 1%;
-    }
-    h3 {
-      position: relative;
-      font-size: 2.5em;
-      text-align: center;
-      padding: 2%;
-      margin-left: 0%;
-      margin-top: 0.2%;
-    }
-  
-    .celular {
-      width: 100%;
-      margin-left: 2%;
-    }
-  
-    .ipad {
-      width: 100%;
-      margin-left: 2%;
-    }
-  
-    .notebook {
-      width: 100%;
-      margin-top: -20%;
-      margin-left: 2%;
-    }
-    footer {
-      display: flexbox;
-      position: relative;
-      padding: 2%;
-      width: 100%;
-      background-color: #66ebff;
-    }
-    .logoFooter {
-      position: relative;
-      width: 50%;
-      margin-left: 28%;
-    }
-    h4 {
-      display: flexbox;
-      position: relative;
-      margin: 0;
-      font-size: 1.5em;
-      text-align: center;
-    }
-  
-    .conecte {
-      font-size: 1.8em;
-      text-align: center;
-      margin-top: 8%;
-      margin-bottom: 40%;
-    }
-    #instagram {
-      display: flexbox;
-      position: absolute;
-      width: 60%;
-      margin-left: 20%;
-      margin-top: -50%;
-      padding: 0%;
-    }
-  
-    .marcacao {
-      display: flexbox;
-      position: absolute;
-      padding: 0%;
-      width: 140%;
-      margin-top: 80%;
-      margin-left: -95%;
-    }
-  
-    .direitos {
-      display: flexbox;
-      position: absolute;
-      font-size: 1.5em;
-      margin-left: 10%;
-      margin-top: 140%;
-    }
-    .direitos1 {
-      display: flexbox;
-      position: absolute;
-      font-size: 1.3em;
-      margin-left: 25%;
-      margin-top: 150%;
-    }
-    .agende {
-      display: flexbox;
-      position: absolute;
-      font-size: 1.8em;
-      margin-left: 33%;
-      margin-top: 82%;
-    }
-    #zap {
-      display: flexbox;
-      position: relative;
-      width: 70%;
-      margin-left: 15%;
-      margin-top: 83%;
-    }
-    #details {
-      display: flexbox;
-      position: relative;
-      margin-left: 60%;
-      margin-bottom: 0;
-      padding: 1%;
-    }
+  .tentantes {
+    width: 40%;
+    margin-left: 2%;
   }
-  @media screen and (min-width: 768px) and (max-width: 1024px) {
-    header {
-      padding: 4vh;
-    }
-  
-    img {
-      width: 30%;
-      margin-left: 0%;
-      margin-top: -3%;
-    }
-    nav {
-      margin-top: 7%;
-      margin-left: 38%;
-    }
-  
-    li {
-      padding: 1%;
-    }
-    .photoPerfil {
-      width: 50%;
-      margin-left: 0%;
-      margin-top: 5%;
-    }
-    h1 {
-      columns: 1;
-    }
-    h2 {
-      margin-left: 31%;
-    }
-    .tentantes {
-      width: 45%;
-      margin-left: 2%;
-      margin-top: 2%;
-    }
-    #chance {
-      padding: 2vh;
-      width: 30%;
-      margin-left: 10%;
-      margin-top: 0.5%;
-    }
-    .gravida {
-      width: 45%;
-      margin-left: 54%;
-    }
-    #mulheres {
-      font-size: 2vh;
-      width: 20%;
-      margin-left: 70%;
-      margin-top: 1%;
-    }
-    .tea {
-      width: 50%;
-      margin-left: 10%;
-      margin-top: -5%;
-    }
-  
-    #down {
-      width: 30%;
-      margin-left: 62%;
-      margin-top: -15%;
-    }
-  
-    h3 {
-      margin-left: 33%;
-    }
-  
-    .logoFooter {
-      display: flexbox;
-      position: relative;
-      margin: 0;
-    }
-    #instagram {
-      display: flexbox;
-      position: absolute;
-      margin-top: 30%;
-    }
-  
-    #zap {
-      display: flexbox;
-      position: absolute;
-      margin-top: 30%;
-      margin-left: 74%;
-    }
-    .marcacao {
-      margin-left: -26%;
-      width: 100%;
-    }
-    .conecte {
-      display: flexbox;
-      position: absolute;
-      margin-top: 30%;
-      font-size: 2.7vh;
-      margin-left: 1%;
-    }
-    .agende {
-      display: flexbox;
-      position: absolute;
-      margin-left: 80%;
-      margin-top: 30%;
-      font-size: 2.7vh;
-    }
-    .direitos {
-      display: flexbox;
-      position: absolute;
-      margin-left: 35%;
-      margin-top: 80%;
-    }
-    .direitos1 {
-      display: flexbox;
-      position: absolute;
-      margin-left: 40%;
-      margin-top: 85%;
-    }
-    h4 {
-      display: flexbox;
-      text-align: right;
-      margin-top: -12%;
-      padding: 0;
-      font-size: 1.5em;
-    }
-    #details {
-      display: flexbox;
-      position: relative;
-      margin-top: 70%;
-      margin-left: 80%;
-      width: 20%;
-    }
+  #chance {
+    font-size: 2.8vh;
+    width: 20%;
+    margin-left: 12%;
+    margin-top: 1%;
   }
-  @media screen and (min-width: 950px) and (max-width: 1280px) {
-    img {
-      width: 20%;
-      margin-top: -1%;
-    }
-    li {
-      padding: 4%;
-    }
-    .photoPerfil {
-      width: 40%;
-      margin-left: 0%;
-      margin-top: -5%;
-    }
-    h2 {
-      margin-left: 22%;
-    }
-    .tentantes {
-      width: 40%;
-      margin-left: 2%;
-    }
-    #chance {
-      font-size: 2.8vh;
-      width: 20%;
-      margin-left: 12%;
-      margin-top: 1%;
-    }
-    .gravida {
-      width: 45%;
-    }
-    #mulheres {
-      font-size: 2.8vh;
-      padding: 2vh;
-      width: 20%;
-      margin-left: 65%;
-      margin-top: 1%;
-    }
-    .tea {
-      width: 50%;
-      margin-left: 20%;
-      margin-top: 2%;
-    }
-  
-    #down {
-      font-size: 2.5vh;
-      padding: 2vh;
-      width: 20%;
-      margin-left: 72%;
-      margin-top: -20%;
-    }
-    h3 {
-      margin-left: 22%;
-    }
-  
-    #instagram {
-      display: flexbox;
-      position: absolute;
-      margin-top: 18%;
-    }
-  
-    #zap {
-      display: flexbox;
-      position: absolute;
-      margin-top: 17%;
-      margin-left: 75%;
-    }
-  
-    .marcacao {
-      width: 50%;
-      margin-left: 25%;
-    }
-    .conecte {
-      display: flexbox;
-      position: absolute;
-      margin-top: 16%;
-    }
-  
-    .agende {
-      display: flexbox;
-      position: absolute;
-      margin-top: 16%;
-      margin-left: 80%;
-    }
-    .direitos {
-      display: flexbox;
-      position: absolute;
-      margin-left: 42%;
-      margin-top: 38%;
-    }
-    .direitos1 {
-      display: flexbox;
-      position: absolute;
-      margin-top: 40%;
-      margin-left: 45%;
-    }
-  
-    #details {
-      display: flexbox;
-      position: relative;
-      margin-top: 23%;
-      margin-left: 80%;
-    }
-  
-    .ipad {
-      margin-left: -9%;
-    }
-  
-    .notebook {
-      margin-left: 60%;
-    }
+  .gravida {
+    width: 45%;
   }
+  #mulheres {
+    font-size: 2.8vh;
+    padding: 2vh;
+    width: 20%;
+    margin-left: 65%;
+    margin-top: 1%;
+  }
+  .tea {
+    width: 50%;
+    margin-left: 20%;
+    margin-top: 2%;
+  }
+
+  #down {
+    font-size: 2.5vh;
+    padding: 2vh;
+    width: 20%;
+    margin-left: 72%;
+    margin-top: -20%;
+  }
+  h3 {
+    margin-left: 22%;
+  }
+
+  #instagram {
+    display: flexbox;
+    position: absolute;
+    margin-top: 18%;
+  }
+
+  #zap {
+    display: flexbox;
+    position: absolute;
+    margin-top: 17%;
+    margin-left: 75%;
+  }
+
+  .marcacao {
+    width: 50%;
+    margin-left: 25%;
+  }
+  .conecte {
+    display: flexbox;
+    position: absolute;
+    margin-top: 16%;
+  }
+
+  .agende {
+    display: flexbox;
+    position: absolute;
+    margin-top: 16%;
+    margin-left: 80%;
+  }
+  .direitos {
+    display: flexbox;
+    position: absolute;
+    margin-left: 42%;
+    margin-top: 38%;
+  }
+  .direitos1 {
+    display: flexbox;
+    position: absolute;
+    margin-top: 40%;
+    margin-left: 45%;
+  }
+
+  #details {
+    display: flexbox;
+    position: relative;
+    margin-top: 23%;
+    margin-left: 80%;
+  }
+
+  .ipad {
+    margin-left: -9%;
+  }
+
+  .notebook {
+    margin-left: 60%;
+  }
+}

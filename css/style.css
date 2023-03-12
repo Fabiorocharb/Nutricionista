@@ -8,6 +8,7 @@
   font-family: "Alegreya-Medium";
   src: url(../fonts/Alegreya-VariableFont_wght.ttf);
 }
+
 header {
   background-color: #b3daff;
   padding: 2vh;
@@ -156,22 +157,22 @@ article {
 
 .celular {
   position: relative;
-  width: 40%;
-  margin-left: -5%;
+  width: 15%;
+  margin-left: 7%;
 }
 
 .ipad {
   position: relative;
-  width: 40%;
-  margin-left: -10%;
+  width: 20%;
+  margin-left: 12%;
 }
 
 .notebook {
   display: flexbox;
   position: relative;
-  width: 40%;
+  width: 30%;
   margin-top: -40%;
-  margin-left: 60%;
+  margin-left: 65%;
 }
 
 footer {
@@ -188,12 +189,12 @@ div {
 }
 #instagram {
   position: absolute;
-  margin-top: -18%;
+  margin-top: -16%;
 }
 
 #zap {
   position: absolute;
-  margin-top: -20%;
+  margin-top: -18%;
   margin-left: 77%;
 }
 #rodape {
@@ -201,8 +202,8 @@ div {
   position: relative;
 }
 .marcacao {
-  margin-left: 30%;
-  text-align: center;
+  margin-left: 39%;
+  margin-top: 10%;
 }
 .conecte {
   margin-top: 10%;
@@ -222,6 +223,7 @@ div {
 .direitos {
   display: flexbox;
   position: relative;
+  padding: 2%;
   text-align: center;
   margin-top: 15%;
 }
@@ -240,9 +242,10 @@ div {
 }
 
 @media screen and (min-width: 320px) and (max-width: 480px) {
+
   img {
     margin-left: 1%;
-    width: 45%;
+    width: 40%;
   }
   nav {
     display: flexbox;
@@ -254,8 +257,8 @@ div {
   .photoPerfil {
     position: relative;
     display: flexbox;
-    width: 120%;
-    margin-left: -15%;
+    width: 100%;
+    margin-left: 0%;
     margin-top: -15%;
   }
   section {
@@ -268,19 +271,19 @@ div {
   }
   h1 {
     margin-top: 0%;
-    font-size: 2.5em;
+    font-size: 2.0em;
     columns: 1;
     text-align: center;
   }
 
   p {
-    font-size: 1.5em;
+    font-size: 1.2em;
     padding: 1%;
     text-align: center;
   }
 
   h2 {
-    font-size: 2.5em;
+    font-size: 2.0em;
     text-align: center;
     padding: 0%;
     margin-left: 0%;
@@ -338,7 +341,7 @@ div {
 
   h3 {
     position: relative;
-    font-size: 2.5em;
+    font-size: 2em;
     text-align: center;
     padding: 2%;
     margin-left: 0%;
@@ -346,19 +349,19 @@ div {
   }
 
   .celular {
-    width: 110%;
-    margin-left: -5%;
+    width: 80%;
+    margin-left: 10%;
   }
 
   .ipad {
-    width: 110%;
-    margin-left: -5%;
+    width: 80%;
+    margin-left: 10%;
   }
 
   .notebook {
-    width: 110%;
-    margin-top: -20%;
-    margin-left: -5%;
+    width: 80%;
+    margin-top: 10%;
+    margin-left: 10%;
   }
   footer {
     display: flexbox;
@@ -376,12 +379,12 @@ div {
     display: flexbox;
     position: relative;
     margin: 0;
-    font-size: 1.5em;
+    font-size: 1.2em;
     text-align: center;
   }
 
   .conecte {
-    font-size: 1.8em;
+    font-size: 1.2em;
     text-align: center;
     margin-top: 8%;
     margin-bottom: 40%;
@@ -399,37 +402,37 @@ div {
     display: flexbox;
     position: absolute;
     padding: 0%;
-    width: 140%;
-    margin-top: 70%;
-    margin-left: -47%;
+    width: 70%;
+    margin-top: 80%;
+    margin-left: -10%;
   }
 
   .direitos {
     display: flexbox;
     position: absolute;
-    font-size: 1.5em;
+    font-size: 1.2em;
     margin-left: 10%;
     margin-top: 140%;
   }
   .direitos1 {
     display: flexbox;
     position: absolute;
-    font-size: 1.3em;
+    font-size: 1.1em;
     margin-left: 25%;
-    margin-top: 160%;
+    margin-top: 150%;
   }
   .agende {
     display: flexbox;
     position: absolute;
-    font-size: 1.8em;
+    font-size: 1.2em;
     margin-left: 33%;
     margin-top: 82%;
   }
   #zap {
     display: flexbox;
     position: relative;
-    width: 70%;
-    margin-left: 15%;
+    width: 60%;
+    margin-left: 20%;
     margin-top: 83%;
   }
   #details {
@@ -468,18 +471,18 @@ div {
   }
   h1 {
     margin-top: 0%;
-    font-size: 2.5em;
+    font-size: 2.2em;
     columns: 1;
     text-align: center;
   }
 
   p {
-    font-size: 1.5em;
+    font-size: 1.2em;
     padding: 1%;
   }
 
   h2 {
-    font-size: 2.5em;
+    font-size: 2.2em;
     text-align: center;
     padding: 0%;
     margin-left: 0%;
@@ -535,7 +538,7 @@ div {
   }
   h3 {
     position: relative;
-    font-size: 2.5em;
+    font-size: 2em;
     text-align: center;
     padding: 2%;
     margin-left: 0%;
@@ -543,19 +546,19 @@ div {
   }
 
   .celular {
-    width: 100%;
-    margin-left: 2%;
+    width: 80%;
+    margin-left: 9%;
   }
 
   .ipad {
-    width: 100%;
-    margin-left: 2%;
+    width: 80%;
+    margin-left: 9%;
   }
 
   .notebook {
-    width: 100%;
-    margin-top: -20%;
-    margin-left: 2%;
+    width: 80%;
+    margin-top: 5%;
+    margin-left: 9%;
   }
   footer {
     display: flexbox;
@@ -566,19 +569,19 @@ div {
   }
   .logoFooter {
     position: relative;
-    width: 50%;
-    margin-left: 28%;
+    width: 40%;
+    margin-left: 30%;
   }
   h4 {
     display: flexbox;
     position: relative;
     margin: 0;
-    font-size: 1.5em;
+    font-size: 1em;
     text-align: center;
   }
 
   .conecte {
-    font-size: 1.8em;
+    font-size: 1.1em;
     text-align: center;
     margin-top: 8%;
     margin-bottom: 40%;
@@ -596,29 +599,29 @@ div {
     display: flexbox;
     position: absolute;
     padding: 0%;
-    width: 140%;
-    margin-top: 80%;
-    margin-left: -95%;
+    width: 70%;
+    margin-top: 95%;
+    margin-left: -52%;
   }
 
   .direitos {
     display: flexbox;
     position: absolute;
-    font-size: 1.5em;
+    font-size: 1.2em;
     margin-left: 10%;
     margin-top: 140%;
   }
   .direitos1 {
     display: flexbox;
     position: absolute;
-    font-size: 1.3em;
+    font-size: 1.1em;
     margin-left: 25%;
     margin-top: 150%;
   }
   .agende {
     display: flexbox;
     position: absolute;
-    font-size: 1.8em;
+    font-size: 1.1em;
     margin-left: 33%;
     margin-top: 82%;
   }
@@ -632,7 +635,7 @@ div {
   #details {
     display: flexbox;
     position: relative;
-    margin-left: 60%;
+    margin-left: 55%;
     margin-bottom: 0;
     padding: 1%;
   }
@@ -718,17 +721,18 @@ div {
     display: flexbox;
     position: absolute;
     margin-top: 30%;
-    margin-left: 74%;
+    margin-left: 71%;
   }
   .marcacao {
-    margin-left: -26%;
-    width: 100%;
+    margin-left: 2%;
+    margin-top: 23%;
+    width: 40%;
   }
   .conecte {
     display: flexbox;
     position: absolute;
     margin-top: 30%;
-    font-size: 2.7vh;
+    font-size: 2.2vh;
     margin-left: 1%;
   }
   .agende {
@@ -736,90 +740,33 @@ div {
     position: absolute;
     margin-left: 80%;
     margin-top: 30%;
-    font-size: 2.7vh;
+    font-size: 2.2vh;
   }
   .direitos {
     display: flexbox;
     position: absolute;
     margin-left: 35%;
-    margin-top: 80%;
+    margin-top: 70%;
   }
   .direitos1 {
     display: flexbox;
     position: absolute;
-    margin-left: 40%;
-    margin-top: 85%;
+    margin-left: 43%;
+    margin-top: 75%;
   }
   h4 {
     display: flexbox;
     text-align: right;
     margin-top: -12%;
-    padding: 0;
-    font-size: 1.5em;
+    padding: 0%;
+    font-size: 1.4em;
   }
   #details {
     display: flexbox;
     position: relative;
-    margin-top: 70%;
+    margin-top: 60%;
     margin-left: 80%;
     width: 20%;
-  }
-}
-@media screen and (min-width: 1024px) and (max-width: 800px) {
-  #instagram {
-    position: absolute;
-    margin-top: -18%;
-  }
-
-  #zap {
-    position: absolute;
-    margin-top: -20%;
-    margin-left: 77%;
-  }
-  #rodape {
-    display: flexbox;
-    position: relative;
-  }
-  .marcacao {
-    display: flexbox;
-    position: relative;
-    margin-left: -300%;
-    text-align: center;
-  }
-  .conecte {
-    margin-top: 10%;
-    font-size: 3vh;
-    margin-left: 5%;
-    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
-      sans-serif;
-  }
-
-  .agende {
-    display: flexbox;
-    position: relative;
-    text-align: center;
-    margin-left: 70%;
-    margin-top: -2%;
-    font-size: 3vh;
-  }
-  .direitos {
-    display: flexbox;
-    position: relative;
-    text-align: center;
-    margin-top: 15%;
-  }
-  .direitos1 {
-    display: flexbox;
-    position: relative;
-    text-align: center;
-    margin-top: 0%;
-  }
-
-  #details {
-    display: flexbox;
-    position: relative;
-    margin-top: 40%;
-    margin-left: 0%;
   }
 }
 @media screen and (min-width: 950px) and (max-width: 1280px) {
@@ -889,8 +836,8 @@ div {
   }
 
   .marcacao {
-    width: 50%;
-    margin-left: 25%;
+    width: 30%;
+    margin-left: 35%;
   }
   .conecte {
     display: flexbox;
@@ -909,12 +856,14 @@ div {
     position: absolute;
     margin-left: 42%;
     margin-top: 38%;
+
   }
   .direitos1 {
     display: flexbox;
     position: absolute;
-    margin-top: 40%;
-    margin-left: 45%;
+    text-align: center;
+    margin-top: 42%;
+    margin-left: 47%;
   }
 
   #details {
@@ -924,11 +873,15 @@ div {
     margin-left: 80%;
   }
 
+  .celular {
+   margin-left: 7%;
+  }
   .ipad {
-    margin-left: -9%;
+    margin-left: 10%;
+    width: 22%;
   }
 
   .notebook {
-    margin-left: 60%;
+    margin-left: 65%;
   }
 }

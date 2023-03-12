@@ -885,3 +885,64 @@ div {
     margin-left: 65%;
   }
 }
+@media screen and (min-width: 800px) and (max-width: 1024px) {
+
+#instagram {
+  display: flexbox;
+  position: absolute;
+  margin-top: 26%;
+}
+
+#zap {
+  display: flexbox;
+  position: absolute;
+  margin-top: 23%;
+  margin-left: 75%;
+}
+
+.marcacao {
+  display: flexbox;
+  position: absolute;
+  width: 30%;
+  margin-top: 10%;
+  margin-left: 15%;
+}
+.conecte {
+  display: flexbox;
+  position: absolute;
+  margin-top: 28%;
+}
+
+.agende {
+  display: flexbox;
+  position: absolute;
+  margin-top: 26%;
+  margin-left: 80%;
+}
+.direitos {
+  display: flexbox;
+  position: absolute;
+  text-align: center;
+  margin-left: 42%;
+  margin-top: 50%;
+
+}
+.direitos1 {
+  display: flexbox;
+  position: absolute;
+  text-align: center;
+  margin-top: 55%;
+  margin-left: 47%;
+}
+h4 {
+  display: none;
+  
+}
+#details {
+  display: flexbox;
+  position: relative;
+  margin-top: 40%;
+  margin-left: 80%;
+}
+
+}

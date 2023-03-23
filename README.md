@@ -1,8 +1,8 @@
 <div align="center">
-<img src="https://user-images.githubusercontent.com/106245486/227068333-20e8f645-1652-4f37-b186-cd9c5f89c877.png" width="23%" />
+<img src="https://user-images.githubusercontent.com/106245486/227068333-20e8f645-1652-4f37-b186-cd9c5f89c877.png" width="23%" alt="logotipo da nutricionista" />
 </div>
 
-> Status do projeto: completo ✅
+> ****Status do projeto****: completo ✅
 
 <h2> 🎯 Objetivo do projeto:</h2>
 
@@ -15,7 +15,7 @@ Além disso o *****site deve conter: depoimentos de clientes, botões de ações
 <h2>🔗 Link para o site: </h2>
 https://brunapiresnutricionista.bohr.io/
 
-<h2>👨‍💻 Tecnologias usadas :</h2>
+<h2>👨‍💻 Tecnologias ultilizadas :</h2>
 <div>
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/canva/canva-original.svg" width="6%"/>    
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg" width="6%" />
@@ -24,7 +24,7 @@ https://brunapiresnutricionista.bohr.io/
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/visualstudio/visualstudio-plain-wordmark.svg" width="10%"/>
 </div>
 
-<h2>📮 Vamos conversar ?</h2>
+<h2>📮 Rede social e contatos: </h2>
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/fabiorocharb)
 [![Github](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Fabiorocharb/Fabiorocharb)

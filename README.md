@@ -1,13 +1,14 @@
 <div align="center">
-<img src="https://user-images.githubusercontent.com/106245486/227068333-20e8f645-1652-4f37-b186-cd9c5f89c877.png" width="23%" alt="logotipo da nutricionista" />
+<img src="https://user-images.githubusercontent.com/106245486/227068333-20e8f645-1652-4f37-b186-cd9c5f89c877.png" alt="logotipo da nutricionista" />
 </div>
 
 > ****Status do projeto****: completo ✅
 
 <h2> 🎯 Objetivo do projeto:</h2>
 
-Criar um site para a **Bruna, nutricionista especializada em materno infantil**, contendo informações **sobre "suas especializações" e sobre o seu "público alvo"**,
-Além disso o *****site deve conter: depoimentos de clientes, botões de ações, direcionamento para suas rede socias e contatos e claro deixar adaptado a qualquer tela*****.
+**Criar** um site em Nutrição Materno Infantil, contendo informações sobre o público alvo de atendimento do profissional como suas especializações",
+
+**Conter** depoimentos de clientes, botões de ações, direcionamento para suas rede socias e contatos e claro, deixar adaptado a qualquer tela.
 
 <img src="https://img.shields.io/bower/l/html?style=flat-square"/>
 

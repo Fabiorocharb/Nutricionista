@@ -7,7 +7,7 @@
 <h2> 🎯 Objetivo do projeto:</h2>
 
 Criar um site para a **Bruna, nutricionista especializada em materno infantil**, contendo informações **sobre "suas especializações" e sobre o seu "público alvo"**,
-Além disso o *****site deve conter: depoimentos de clientes, botões de ações, direcionamento para suas rede socias e contatos e claro deixar adptado a qualquer tela*****.
+Além disso o *****site deve conter: depoimentos de clientes, botões de ações, direcionamento para suas rede socias e contatos e claro deixar adaptado a qualquer tela*****.
 
 <img src="https://img.shields.io/bower/l/html?style=flat-square"/>
 

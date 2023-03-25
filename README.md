@@ -19,14 +19,14 @@
 <h2>🔗 Link do site: </h2>
 https://brunapiresnutricionista.bohr.io/
 
-<h2>🧰 Site e extensão ultilizado:</h2>
+<h2>🧰 Site e extensão utilizado:</h2>
 
 <p>✅ https://responsiveviewer.org/ </p>
 <p>✅ ResponsivelyApp </p>
 <p>✅ Checkbot: SEO,Web Speed and Security Tester - Extensão do Google </p>
 
 
-<h2>👨‍💻 Tecnologias ultilizadas :</h2>
+<h2>👨‍💻 Tecnologias usadas :</h2>
 <div>
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/canva/canva-original.svg" width="6%"/>    
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg" width="6%" />

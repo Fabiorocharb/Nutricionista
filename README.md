@@ -1,3 +1,17 @@
+## Executar e verificar localmente
+
+O site é estático: as quatro páginas usam `css/style.css`, sem compilação.
+Com Python 3 instalado, execute `python -m http.server 4173 --bind 127.0.0.1`
+na pasta do projeto e abra `http://127.0.0.1:4173`.
+
+Para os testes, instale Node.js, Python 3 e Google Chrome. Execute `npm ci`
+e depois `npm test`. A suíte inicia e encerra o servidor automaticamente,
+verifica as quatro páginas em 14 larguras (320–1920 px), modo paisagem,
+texto ampliado, imagens, arquivos locais, links, teclado e sobreposições.
+As capturas de 375, 768 e 1440 px ficam em `test-results/`.
+Para usar o Edge no PowerShell: `$env:BROWSER_CHANNEL = 'msedge'; npm test`.
+Os testes não enviam mensagens nem verificam a disponibilidade dos contatos externos.
+
 <div align="center">
 <img src="https://user-images.githubusercontent.com/106245486/227068333-20e8f645-1652-4f37-b186-cd9c5f89c877.png" alt="logotipo da nutricionista" />
 </div>
